@@ -14,4 +14,4 @@ def print_myinfo(name, age, school):
 	print "Name: ", name
 	print "Age: ", age
 	print "School: ", school
-print_myinfo (age=38, name="Augustine", school="St.Anns")
+print_myinfo (age=38, name="Augustine", school="St.Andrews")
