@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/PYTHON2022-Basics.iml" filepath="$PROJECT_DIR$/.idea/PYTHON2022-Basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Selenium2022/.idea/Selenium2022.iml" filepath="$PROJECT_DIR$/Selenium2022/.idea/Selenium2022.iml" />
+    </modules>
+  </component>
+</project>
