@@ -12,4 +12,4 @@ time.sleep(2)
 # switch to the alert mode
 alert = driver.switch_to.alert
 print(alert.text)
-alert.accept()
+alert.accept()  # alert.dismiss()  is used to cancel/ No

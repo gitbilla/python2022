@@ -4,6 +4,8 @@ import time
 """
 https://www.rahulshettyacademy.com/AutomationPractice/
 https://rahulshettyacademy.com/dropdownsPractise/
+https://rahulshettyacademy.com/seleniumPractise/#/  # vegetables
+https://jqueryui.com/menu/
 """
 
 from selenium.webdriver.support.select import Select

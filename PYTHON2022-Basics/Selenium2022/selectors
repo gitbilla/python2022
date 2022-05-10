@@ -1,0 +1,72 @@
+Name
+Xpath
+CSS
+ClassName
+linkText
+
+******************************************************
+"""
+https://www.rahulshettyacademy.com/AutomationPractice/
+https://rahulshettyacademy.com/dropdownsPractise/
+https://rahulshettyacademy.com/seleniumPractise/#/
+https://jqueryui.com/menu/
+"""
+******************************************************
+CSS  syntax
+
+tagname[attribute='value']
+ex : [attribute*='value']
+
+ID : find element by ID ("id_value")
+
+Name : input[name='name']
+
+from console
+$("input[name='name']")
+# generating CSS from ID
+tagname#ID
+# generating CSS from ClassName
+tagname.className
+******************************************************
+X-Path
+Syntax for xpath : //tagname[@attribute=’value’] or //*[@attribute=’value’]
+//tagname[@attribute=value]
+using console
+$x("//input[@type='submit']")
+# generating Xpath based on text
+//tagname[text()='xxx']
+******************************************************
+##############   Text links  #########################
+
+identifying the text on the link by using the text
+ex : forgot the password
+hint : for any link the tag name would always be 'a' # as per html standards
+driver.find_element_by_link_text("Forgot Your Password?").click()
+
+******************************************************
+# Creating Xpath and CSS by Traversing Tags example used : https://login.salesforce.com/?locale=in
+from parent to child
+using Xpath to reach the parent //div[@id='usernamegroup'
+
+//div[@id='usernamegroup']/label # parent attribute is id and using child tag as label
+
+using CSS to reach the parent
+div[id='usernamegroup'] label # parent attribute is id and using child tag as label
+
+using Xpath to reach the child from grandparents
+//form[@name='login']/div[1]/label
+Note : aviod using css to locate child from grandparents
+
+******************************************************
+
+
+
+
+
+******************************************************
+
+
+
+
+
+******************************************************
